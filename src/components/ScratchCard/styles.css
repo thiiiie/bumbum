@@ -1,0 +1,10 @@
+/* /Users/jaovito/www/alencar/bumbum/web/src/components/ScratchCard/styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scratch-card {
+  @apply bg-card-background text-card-foreground flex items-center justify-center;
+  @apply border-4 border-scratch-card-border rounded-lg;
+  @apply w-full h-[8.4rem] px-4 text-center font-bold text-xl;
+}

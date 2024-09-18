@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F9E547;
+  --foreground: #171717;
+
+  --scratch-card-background: #DD44B7;
+  --scratch-card-foreground: #FFFFFF;
+  --scratch-card-border: #FFFFFF;
+
+  --card-background: #FFFFFF;
+  --card-foreground: #000000;
+
+  --primary: #842098;
+  --primary-foreground: #FFFFFF;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none; 
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
