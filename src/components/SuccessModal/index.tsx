@@ -30,7 +30,7 @@ export const SuccessModal = ({
 						<Dialog.Close className="my-4 outline-none" onClick={onClose}>
 							<Link
 								href={checkoutUrl}
-								className="px-6 py-4 bg-primary rounded-lg"
+								className="px-6 py-4 bg-primary rounded-lg font-bold"
 							>
 								Aproveitar agora!
 							</Link>
