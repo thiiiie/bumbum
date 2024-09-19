@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.1",
+    "lottie-react": "^2.4.0",
     "next": "14.2.12",
     "next-scratchcard": "^0.0.4",
     "react": "^18",
