@@ -1,7 +1,7 @@
 "use client";
+import Lottie from "lottie-react";
 import { useState } from "react";
-import Lottie from 'lottie-react';
-import animationData from '../../../public/confetti.json'
+import animationData from "../../../public/confetti.json";
 import { ScratchCard } from "../ScratchCard";
 import { SuccessModal } from "../SuccessModal";
 
@@ -22,7 +22,13 @@ export const CardsList = () => {
 
 	return (
 		<section className="flex flex-col items-center justify-center gap-6">
-			{showConfetti && <Lottie animationData={animationData} autoPlay className="fixed top-0 left-0 z-[9999]" />}
+			{showConfetti && (
+				<Lottie
+					animationData={animationData}
+					autoPlay
+					className="fixed top-0 left-0 z-[9999]"
+				/>
+			)}
 
 			<ScratchCard title="Tente novamente" />
 			<ScratchCard title="Tente novamente" />
