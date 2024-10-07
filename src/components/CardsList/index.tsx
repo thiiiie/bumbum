@@ -38,7 +38,7 @@ export const CardsList = () => {
 			/>
 
 			<SuccessModal
-				checkoutUrl="https://bumbum-git-main-thixs-projects.vercel.app/?__vercel_draft=1" // colocar url de pagamento aqui
+				checkoutUrl="https://bbcream.store/" // colocar url de pagamento aqui
 				isOpen={isModalOpen}
 				onClose={handleToggleModal}
 			/>
