@@ -38,7 +38,7 @@ export const CardsList = () => {
 			/>
 
 			<SuccessModal
-				checkoutUrl="https://bbcream.store/" // colocar url de pagamento aqui
+				checkoutUrl="https://bbcream.store/" // colocar url de pagamento bem aqui
 				isOpen={isModalOpen}
 				onClose={handleToggleModal}
 			/>
