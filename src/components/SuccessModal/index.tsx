@@ -23,8 +23,8 @@ export const SuccessModal = ({
 						</Dialog.Title>
 
 						<Dialog.Description className="my-6 text-xl font-bold">
-							Você ganhou 65% de desconto no BUMBUM CREAM, aproveite agora e
-							acabe com suas estrias!
+							Você ganhou 65% de desconto no seu TRATAMENTO, aproveite agora e
+							acabe com sua insegurança!
 						</Dialog.Description>
 
 						<Dialog.Close className="my-4 outline-none" onClick={onClose}>
